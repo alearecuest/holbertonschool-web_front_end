@@ -385,7 +385,6 @@ template {
   --section-title-color: var(--color-black);
   --section-tagline-margin: 0;
   
-  /* Padding and alignment */
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
@@ -393,7 +392,6 @@ template {
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
   
-  /* Navigation */
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
@@ -474,7 +472,6 @@ a:active {
   margin: var(--section-tagline-margin);
 }
 
-/* Card services styling */
 .card-services .card-title {
   margin: 0;
 }
@@ -491,7 +488,6 @@ a:active {
   text-decoration: none;
 }
 
-/* Dark theme for sections */
 [data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
@@ -504,7 +500,6 @@ a:active {
   margin-right: auto;
 }
 
-/* Navbar */
 .navbar-menu {
   float: right;
 }
@@ -534,7 +529,6 @@ a:active {
   color: var(--nav-item-link-hover);
 }
 
-/* Grid styling */
 ul.row {
   margin: 0;
   padding: 0;
@@ -547,7 +541,6 @@ ul.row {
   clear: both;
 }
 
-/* Select all classes that start with col- */
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
@@ -561,7 +554,6 @@ ul.row {
   width: 50%;
 }
 
-/* Footer styling */
 .footer-address {
   color: var(--text-color);
 }
